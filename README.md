@@ -36,7 +36,7 @@ Percentage of Questions for "Medium": 50
 
 [Optional] Specify percentages for some topics? (yes/no): yes
 
-Enter the topics and their percentages (e.g., "Physics 10 Chemistry 20"): Physics 10 Chemistry 20
+Enter the topics and their percentages (e.g., "waves 10 thermodynamics 20"): waves 10 thermodynamics 20
 
 
 The generated question paper will be displayed, and a PDF file (question_paper.pdf) will be created in the project directory.
