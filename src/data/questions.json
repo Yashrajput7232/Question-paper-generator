@@ -1,0 +1,23 @@
+[
+  {"'question": "is the speed of light", "subject":"Physics", "topic":"Waves",  "difficulty":"Easy","marks":5},
+  {"question": "Explain the laws of thermodynamics.", "subject": "Physics", "topic": "Thermodynamics", "difficulty": "Medium", "marks": 10},
+  {"question": "Define the concept of supply and demand.", "subject": "Economics", "topic": "Microeconomics", "difficulty": "Easy", "marks": 10},
+  {"question": "What is the capital of France?", "subject": "Geography", "topic": "World Capitals", "difficulty": "Easy", "marks": 5},
+  {"question": "Solve the equation: 3x + 7 = 22", "subject": "Mathematics", "topic": "Algebra", "difficulty": "Medium", "marks": 15},
+  {"question": "Describe the process of photosynthesis.", "subject": "Biology", "topic": "Cellular Processes", "difficulty": "Hard", "marks": 20},
+  {"question": "Who is the author of 'To Kill a Mockingbird'?", "subject": "Literature", "topic": "Modern Classics", "difficulty": "Easy", "marks": 10},
+  {"question": "What are the key features of the human respiratory system?", "subject": "Anatomy", "topic": "Respiratory System", "difficulty": "Medium", "marks": 15},
+  {"question": "Discuss the impact of climate change on ecosystems.", "subject": "Environmental Science", "topic": "Climate Change", "difficulty": "Hard", "marks": 20},
+  {"question": "List the main components of a computer system.", "subject": "Computer Science", "topic": "Computer Systems", "difficulty": "Medium", "marks": 15},
+  {"question": "Explain the concept of blockchain technology.", "subject": "Information Technology", "topic": "Blockchain", "difficulty": "Hard", "marks": 20},
+  {"question": "Who discovered penicillin?", "subject": "Medicine", "topic": "Medical History", "difficulty": "Easy", "marks": 10},
+  {"question": "Differentiate between classical and operant conditioning.", "subject": "Psychology", "topic": "Behavioral Psychology", "difficulty": "Medium", "marks": 15},
+  {"question": "What is the significance of the Magna Carta?", "subject": "History", "topic": "Medieval History", "difficulty": "Hard", "marks": 20},
+  {"question": "Calculate the velocity of an object in free fall.", "subject": "Physics", "topic": "Gravity", "difficulty": "Medium", "marks": 15},
+  {"question": "Discuss the principles of ethical hacking.", "subject": "Computer Science", "topic": "Cybersecurity", "difficulty": "Hard", "marks": 20},
+  {"question": "Identify and explain the main types of chemical reactions.", "subject": "Chemistry", "topic": "Chemical Reactions", "difficulty": "Medium", "marks": 15},
+  {"question": "Who painted the Mona Lisa?", "subject": "Art", "topic": "Renaissance Art", "difficulty": "Easy", "marks": 10},
+  {"question": "Examine the role of the United Nations in international relations.", "subject": "Political Science", "topic": "International Organizations", "difficulty": "Hard", "marks": 20},
+  {"question": "Define the concept of elasticity in economics.", "subject": "Economics", "topic": "Microeconomics", "difficulty": "Medium", "marks": 15},
+  {"question": "What are the major functions of the human nervous system?", "subject": "Anatomy", "topic": "Nervous System", "difficulty": "Easy", "marks": 10}
+]
