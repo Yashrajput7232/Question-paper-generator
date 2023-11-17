@@ -1,5 +1,7 @@
-//main.js
+// main.js
 const readline = require('readline');
+const fs = require('fs');
+const PDFDocument = require('pdfkit');
 const QuestionStore = require('./questionStore');
 const QuestionPaperGenerator = require('./generator');
 
@@ -37,8 +39,26 @@ function askDifficultyDistribution(totalMarks) {
       ];
 
       const questionPaper = questionPaperGenerator.generateQuestionPaper(totalMarks, difficultyDistribution);
+
+      // Create a PDF document
+      const pdfDoc = new PDFDocument();
+      const pdfStream = fs.createWriteStream('question_paper.pdf');
+
+      // Pipe the PDF document to a file
+      pdfDoc.pipe(pdfStream);
+
+      // Add content to the PDF
+      pdfDoc.fontSize(12).text('Generated Question Paper:\n\n');
+      pdfDoc.fontSize(12).text(`Total Marks: ${totalMarks}`, { align: 'right' }); // Add this line
+      questionPaper.forEach((question, index) => {
+        pdfDoc.fontSize(10).text(`${index + 1}. ${question.question} (${question.marks} marks)\n\n`);
+      });
+
+      // Finalize the PDF document
+      pdfDoc.end();
       console.log('Generated Question Paper:', questionPaper);
 
+      // Close the readline interface
       rl.close();
     });
   });
